@@ -1,0 +1,19 @@
+{
+  "suspiciousAgents": [
+    "curl", "wget", "perl", "python", "java",
+    "phantomjs", "fminer", "scrapy", "awesomium", "electron",
+    "cef", "cefsharp", "amiel", "python-requests", "jakarta",
+    "selenium", "webdriver", "headlesschrome", "slimerjs", "resty",
+    "dalvik", "slurp", "spider", "bot", "crawl", "dotbot",
+    "node-fetch", "jsdom", "casper", "puppeteer", "puppet",
+    "inteliperform", "seekport", "proximic", "httpclient"
+  ],
+  "crawlerBots": [
+    "seokicks", "yandexbot", "headless", "google",
+    "bingbot", "baiduspider", "sogou", "yandex", "httpclient",
+    "duckduckbot", "iaarchive", "exabot", "bing",
+    "facebookexternalhit", "screaming", "googlebot",
+    "samsbot", "ia_archiver", "appengine-google-http-client",
+    "procite", "mediapartners-google", "adsbot-google"
+  ]
+}
