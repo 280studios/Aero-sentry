@@ -1,14 +1,14 @@
 # Aero-sentry
 A lightweight javascript bot detection script &amp; Dos protection with server-side PoW challange validation.
 
-## **Overview**
+## **🔎 Overview**
 This repository contains a **JavaScript-based Browser analyze Script** designed to detect and mitigate bot activity and a **Php-based Proof-of-Work (PoW)** challenge and data verification server. 
 
 This system uses a combination of client-side JavaScript and server-side Php to verify that incoming requests are legitimate and not automated, including CSRF protection, bot detection, and a optional rate limiting (`simple-waf.php`).
 
 The solution is lightweight, modular, and configurable, making it suitable for integration into web applications that require enhanced security against automated attacks or suspicious activity.
 
-## **Features**
+## **🚀 Features**
 1. **Bot Detection (JavaScript)**:
    - Detects headless browsers, suspicious user agents, anomalies and more in clients browser.
    - Uses WebGL, browser engine, and user-agent validation and more to identify bots.
@@ -40,7 +40,7 @@ The solution is lightweight, modular, and configurable, making it suitable for i
 9. **Low latency**
    - Median latency of <0.6ms (depends on: webserver, configuration, PoW setting, CDN, more..)
 
-## **Getting Started**
+## **🏃🏻 Getting Started**
 
 1. Download files:
 
@@ -77,7 +77,7 @@ or
 
 6. Move the `data/` directory to the same path as php files.
 
-## **Requirements**
+## **📋 Requirements**
 
 ### **Server Requirements**
 - **PHP (8.0 or higher recomended, should work for PHP 5+)**
@@ -92,7 +92,7 @@ or
 
 ---
 
-## **How It Works**
+## **🏗️ How It Works**
 <p align="center">
   <img src="https://github.com/user-attachments/assets/18652016-3333-419b-a688-e1f1a0f620e2" width="400" height="auto" />
 </p>
@@ -123,7 +123,7 @@ or
 
 ---
 
-## **Configuration**
+## **🛠️ Configuration**
 The scripts is configurable via the `config` object in the JavaScript file & config.php for the server. Below are the key configuration options:
 
 ### **Client-Side Configuration**
@@ -159,7 +159,7 @@ The scripts is configurable via the `config` object in the JavaScript file & con
  - Also the server must use SSL (HTTPS) for the client metadata to be sent to the server.
 ---
 
-## **Security Best Practices**
+## **🔒 Security Best Practices**
 1. **HTTPS**:
    - Ensure the application is served over HTTPS to protect against man-in-the-middle attacks. Client sending of metadata requires SSL.
 
@@ -172,7 +172,7 @@ The scripts is configurable via the `config` object in the JavaScript file & con
 4. **Challenge Expiry**:
    - Set an appropriate expiry time for challenges to prevent replay attacks.
 
-## **Contributing**
+## **🤝 Contributing**
 Contributions are welcome! Please follow these steps:
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
@@ -180,10 +180,10 @@ Contributions are welcome! Please follow these steps:
 
 <a href='https://ko-fi.com/X8X11DTGJQ' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
-## **License**
-This project is licensed under the x License. See the `LICENSE` file for details.
+## **📄 License**
+This project is licensed under the GNU General Public License. See the `LICENSE` file for details.
 
-## **Acknowledgments**
+## **📣 Acknowledgments**
 Special thanks to the open-source community for providing inspiration for this project.
 Inspired by Cloudflare and fingerprintjs/BotD.
 
