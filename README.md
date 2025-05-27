@@ -26,7 +26,7 @@ The solution is lightweight, modular, and configurable, making it suitable for i
 5. **Loading Screen with CAPTCHA checkbox**:
    - Displays a loading screen with a checkbox CAPTCHA for additional user input validation.
   
-6. **Rate Limiting & IP filtering (Optional - via simple-WaF)**:
+6. **Rate Limiting & IP filtering (Optional, via simple-WaF)**:
    - Limits the number of requests per IP within a configurable time window.
    - Supports IP blacklisting and whitelisting.
    - Current [blacklist.txt](src/data/ip-blacklist.txt) is fetched from <a href="https://www.projecthoneypot.org" target="_blank">Projecthoneypot.org</a>.
