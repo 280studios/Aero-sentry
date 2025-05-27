@@ -64,8 +64,12 @@ or
    ```html
    <script src="aero-sentry.js"></script>
    ```
+   and css:
+   ```html
+   <link rel="stylesheet" href="styles.min.css">
+   ```
 
-4. Initialize the script (Already done in aero-sentry.js by default):
+5. Initialize the script (Already done in aero-sentry.js by default):
    ```javascript
    window.initDosProtection({
        serverUrl: './server.php',
@@ -73,9 +77,9 @@ or
    });
    ```
 
-5. Deploy the server-side scripts (`server.php` and `config.php`) to your web server.
+6. Deploy the server-side scripts (`server.php` and `config.php`) to your web server.
 
-6. Move the `data/` directory to the same path as php files.
+7. Move the `data/` directory to the same path as php files.
 
 ## **📋 Requirements**
 
